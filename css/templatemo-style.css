@@ -585,3 +585,10 @@ select:not([multiple]) {
 
     .tm-social-links li { margin-right: 3px; }
 }
+
+.banner-index{
+    height: 400px;
+    background-image: url(../img/estilo-moda.jpg);
+    background-position: inherit;
+    background-size: cover;
+}
