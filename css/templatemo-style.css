@@ -200,27 +200,27 @@ a.tm-text-primary:hover { color:#666666; }
     width: 360px;
     border-radius: 0;
     padding: 12px 15px;
-    color: #009999;
+    color: #141515;
     border: none;
 }
 
-.tm-search-input:focus {
-    border-color: #009999;
+/*.tm-search-input:focus {
+    border-color: #121313;
     box-shadow: 0 0 0 0.25rem rgb(0 153 153 / 0.25);
-}
+}*/
 
-.tm-search-input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: #009999;
-    opacity: 1; /* Firefox */
-}
+/*.tm-search-input::placeholder { 
+    color: #0a0a0a;
+    opacity: 1; 
+}*/
   
 .tm-search-input::-ms-input-placeholder { /* Microsoft Edge */
-    color: #009999;
+    color: #0b0b0b;
 }
 
 .tm-search-btn {
     color: white;
-    background-color: #009999;
+    background-color: #856404;
     border: none;
     width: 100px;
     height: 50px;
@@ -522,14 +522,14 @@ select:not([multiple]) {
     background-color: #009999;
 }
 
-.form-control,
+/*.form-control,
 input:-internal-autofill-selected,
 select:not([multiple]) {
     color: #009999 !important;
-}
+}*/
 
 .form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color:  #009999;
+    color:  #696969;
     opacity: 1; /* Firefox */
 }
 
@@ -588,7 +588,7 @@ select:not([multiple]) {
 
 .banner-index{
     height: 400px;
-    background-image: url(../img/estilo-moda.jpg);
+    background-image: url(../img/Banner.jpg);
     background-position: inherit;
-    background-size: cover;
+    background-size: top;
 }
